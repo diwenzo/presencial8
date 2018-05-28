@@ -22,67 +22,146 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
 
 </head>
 
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                        aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Fundación niño y cáncer</a>
-
-                </div>
-                <ul class="nav navbar-nav navbar-right" style="margin-right: 5%" >
-                    <li class="active">
-                        <a href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="noticias.html">Noticias</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-
-            <!-- /.container-fluid -->
-        </nav>
-
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Fundación niño y cáncer</a>
+
+            </div>
+            <ul class="nav navbar-nav navbar-right" style="margin-right: 5%">
+                <li class="active">
+                    <a href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="noticias.html">Noticias</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="row">
+        <div class=" col-md-offset-2 col-md-5">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/cancerinfantil_final.jpg" alt="manual oncologico padres">
+                        <div class="carousel-caption">
+                            <h3>Manual para Padres de niños Oncológicos</h3>
+                            <p>Descargue este manual de información básica sobre la enfermedad, tratamiento, cuidados en el
+                                hogar y manejo del impacto de la enfermedad.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/cancerinfantil_corona.jpg" alt="corona">
+                        <div class="carousel-caption">
+                            <h3>Coronas de Caridad Fundación Niño y Cáncer</h3>
+                            <p>Entregue condolencias los deudos a través de nuestras tarjetas. Conozca los nuevos diseños.
+
+                            </p>
+                        </div>
+                    </div>
+                    ...
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row container">
+        <div class="col-md-12">
+            <h3>Últimas noticias</h3>
+            <hr>
+            <div class="col-md-offset-1 col-md-3">
+                <img src="images/cena2.jpg" alt="tallarinata" class="imagen">
+                <p class="thum">
+                    Tallarinata de amor y sonrisas - Una noche de sonrisas, amor y generosidad
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/cena2.jpg" alt="tallarinata" class="imagen">
+                <p class="thum">
+                    Tallarinata de amor y sonrisas - Una noche de sonrisas, amor y generosidad
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/cena2.jpg" alt="tallarinata" class="imagen">
+                <p class="thum">
+                    Tallarinata de amor y sonrisas - Una noche de sonrisas, amor y generosidad
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
 
     <!-- borrar despues de crear el cuerpo de las páginas -->
     <div class="row">
+        <hr>
         <div class="container">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
-                Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
-                Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
-                Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
-                Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
-                Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
-
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
-                Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem similique, libero dicta iure sint facere.
+                Commodi tenetur, nostrum recusandae iste natus beatae illo rem, voluptate aliquid sapiente tempora non illum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem minus animi beatae hic. Quod, soluta
+                tempore. Perspiciatis beatae, nihil suscipit atque labore quia corporis voluptate aperiam saepe voluptas
+                pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius, minus vitae neque dicta veritatis.
+                Sequi adipisci non veniam? Ex doloribus reprehenderit, facilis quos voluptas voluptatem autem corrupti aut
+                voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam
+                corrupti quia? Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel
+                sit?
+            </p>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officiis esse rerum natus magnam corrupti quia?
                 Ad velit consequatur laboriosam quasi non, vero ex veritatis eaque, dignissimos illum vel sit?</p>
 
         </div>
     </div>
+
+
+
 
 
     <div class="row footers">

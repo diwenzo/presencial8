@@ -1,0 +1,30 @@
+.footers{
+    background-color: black;
+    color: azure;
+    padding: 3%;
+}
+
+.footers ul{
+    list-style: none;
+    
+}
+
+.espacio{
+padding-top: 4%
+}
+
+body { padding-top: 70px; }
+
+.imagen{
+    max-width: 100%;
+    align-content: center;
+}
+
+.thum {
+text-align: center;
+}
+
+h3{
+    color: black;
+    margin-top: 4%;
+}

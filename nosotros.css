@@ -1,0 +1,37 @@
+.footers{
+    background-color: black;
+    color: azure;
+    padding: 3%;
+}
+
+.footers ul{
+    list-style: none;
+    
+}
+
+.espacio{
+padding-top: 4%
+}
+
+body { padding-top: 70px; }
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+h4{
+    font-size: 1.125vw;
+    color: darkblue;
+    font-style: oblique
+
+}
+
+.imagen{
+    max-width: 70%;
+    align-content: center;
+}
